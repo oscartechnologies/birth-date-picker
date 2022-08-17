@@ -108,7 +108,8 @@ export default {
       this.yearFrom -= this.colsCount*this.rowsCount; },
     increaseYear(){
       if(!this.ableToIncrease) return;
-      this.setYearFrom( this.yearFrom + this.colsCount*this.rowsCount );
+      this.yearFrom += this.colsCount*this.rowsCount;
+      //this.setYearFrom( this.yearFrom + this.colsCount*this.rowsCount );
     },
     emitInput(val){ this.$emit('input', val); },
     yearIsDecade(year){ return String(year).substr(-1) === '0'; },
