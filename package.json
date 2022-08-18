@@ -1,7 +1,7 @@
 {
   "name": "vue-birth-datepicker",
   "description": "Date picker for distant dates, such as birthday. Just three clicks to choose any month and day 20 or 50 years ago.",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -29,10 +29,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/m-kant/vue-birth-datepicker.git"
+    "url": "https://github.com/pratimawaghmare/birth-datepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/m-kant/vue-birth-datepicker/issues"
+    "url": "https://github.com/pratimawaghmare/birth-datepicker/issues"
   },
   "dependencies": {},
   "devDependencies": {
